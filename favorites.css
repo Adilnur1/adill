@@ -1,0 +1,453 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #F5F5F5;
+}
+.news{
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+}
+.new-title{
+    display: flex;
+    align-items: center;
+}
+.n{
+    width: 21px;
+    height: 21px;
+    margin-right: 18px;
+}
+.new-title1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    color: #000000;
+    margin-left: 3px;
+    margin-bottom: 18px;
+}
+.new-tit{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.new-btn{
+    padding: 6px 49px;
+    gap: 10px;
+    width: 168px;
+    height: 30px;
+    left: 150px;
+    top: 497px;
+    background: #7E5BC2;
+    border-radius: 10px;
+    color: #fff;
+    border: 0;
+    margin-left: 3px;
+}
+.new-title{
+    margin-bottom: 15px;
+}
+.new-info{
+    display: flex;
+    justify-content: center;
+}
+.info-title1{
+    display: flex;
+}
+.info-item1{
+    margin-right: 755px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #858080;
+}
+.new-info1{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #D9D9D9 ;
+    margin-bottom: 15px;
+    margin: 0 30px;
+}
+.new-info2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 125px;
+    margin: 0 30px;
+    padding-bottom: 100px;
+}
+.info-photo1{
+    margin-right: 40px;
+    padding-bottom: 15px;
+}
+.info-title2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.info-title3{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #858080;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.info-title5{
+    margin-top: 18px;
+}
+.info-photo{
+    padding-left: 0px;
+}
+.new-items1{
+    margin-right: 20px;
+}
+.new-items2{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.header-logo-item1{
+    margin-right: 30px;
+}
+.header-logo-item2{
+    margin-right: 30px;
+}
+.header-logo-item3{
+    margin-bottom: 3px;
+}
+.header-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.header-logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 880px;
+
+}
+.fav-conteiner{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.footer{
+    background: #000;
+    text-align: center;
+}
+.footer-item1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-right: 26px;
+    text-decoration: none;
+}
+.footer-item2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+.div{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 55px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 535px;
+}
+.bxs-heart{
+    font-size: 20px;
+    cursor: pointer;
+}
+.bxs-heart:hover{
+    color: red;
+    transition: 1s;
+}
+.f-btn{
+    background: #7E5BC2;
+    border-radius: 10px;
+    padding: 6px 49px;
+    gap: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+    border: 0;
+}
+.my-btn{
+    background: #7E5BC2;
+    border-radius: 10px;
+    padding: 10px 23px;
+    gap: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: 0;
+}
+.f-btnn{
+    background: #7E5BC2;
+    border-radius: 10px;
+    padding: 10px 23px;
+    gap: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: 0;
+    display: none;
+}
+.f-new{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.my{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin: 0 22px;
+    margin-top: 55px;
+}
+.myitem{
+    display: flex;
+    align-items: center;
+}
+.my-title1{
+    background: #E8E8E8;
+    padding: 56px;
+    border-radius: 150px;
+    margin-right: 100px;
+}
+.my-title2{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+.my-span{
+    display: flex;
+    align-items: center;
+    margin-right: 345px;
+}
+.my-tit1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #151515;
+    margin-right: 24px;
+}
+.my-tit11{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #151515;
+    margin-right: 63px;
+}
+.my-tit111{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #151515;
+    margin-right: 27px;
+}
+input{
+    width: 272px;
+    height: 38px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding-left: 12px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #151515;
+}
+.my-s1{
+    margin-right: 20px;
+}
+.info-photo11{
+    display: none;
+}
+
+@media(max-width:1155px){
+    .info-photo1{
+        display: none;
+    }
+    .info-photo11{
+        display: block;
+    }
+    .f-btn{
+        display: none;
+    }
+    .f-btnn{
+        display: block;
+    }
+    .new-info1{
+        display: block;
+    }
+    .new-info2{
+        display: block;
+    }
+    .info-photo{
+        padding-left: 0px;
+    }
+    .header-logo2{
+        margin-left: 500px;
+    }
+    .div{
+        margin-right: 0;
+    }
+    .f-new{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 25px;
+    }
+}
+@media(max-width:795px){
+    .new-info1{
+        display: block;
+    }
+    .new-info2{
+        display: block;
+    }
+    .info-photo{
+        padding-left: 0px;
+    }
+    .header-logo2{
+        margin-left: 0px;
+    }
+    .info-item1 {
+        margin-right: 0px;
+    }
+    .fav-conteiner{
+        margin: 0 40px;
+    }
+    .info-title1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-log{
+        display: flex;
+        justify-content: space-between;
+    }
+    .headerr{
+        margin: 0 20px;
+    }
+    .div{
+        font-size: 24px;
+    }
+    .my-span {
+        display: block;
+        align-items: center;
+        margin-right: 0px;
+    }
+    .my-title2{
+        justify-content: space-between;
+        margin: 0 25px;
+    }
+    .myitem{
+        display: block;
+    }
+    input{
+        width: 170px;
+        height: 38px;
+    }
+    .my-title1 {
+        background: #E8E8E8;
+        padding: 36px;
+        border-radius: 150px;
+        margin-right: 26px;
+    }
+}
+@media(max-width:450px){
+    .new-info1{
+        display: block;
+    }
+    .new-info2{
+        display: block;
+
+    }
+    .info-photo{
+        padding-left: 0px;
+    }
+    .header-logo2{
+        margin-left: 0px;
+    }
+    .info-item1 {
+        margin-right: 0px;
+    }
+    .fav-conteiner{
+        margin: 0 -3px;
+    }
+    .info-title1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-log{
+        display: flex;
+        justify-content: space-between;
+    }
+    .headerr{
+        margin: 0 20px;
+    }
+    .div{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        margin-right: 0px;
+    }
+    .my-span {
+        align-items: center;
+        margin-right: 0px;
+    }
+    .my-title2{
+        justify-content: space-between;
+    }
+    .myitem{
+        display: block;
+    }
+    input{
+        width: 120px;
+        height: 38px;
+    }
+    .my-title1 {
+        background: #E8E8E8;
+        padding: 20px;
+        border-radius: 150px;
+        margin-right: 26px;
+
+    }
+}

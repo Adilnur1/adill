@@ -1,0 +1,322 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #F5F5F5;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.log{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.14);
+    border-radius: 15px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.log-item-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    padding-right: 220px;
+    padding-left: 220px;
+}
+.log-item-x{
+    padding-top: 24px;
+    padding-bottom: 30px;
+    margin-left: 500px;
+}
+.log-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.burger-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    padding-right: 50px;
+    padding-left: 50px; 
+}
+.burger-item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    padding-right: 50px;
+    padding-left: 50px; 
+    margin-right: 140px;
+}
+.log-itemm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.burger-itemm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.logo-title1{
+    margin-right: 130px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.burger-title1{
+    margin-right: 40px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.burger-title2{
+    margin-right: 95px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.burger-title3{
+    margin-right: 37px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.burger-title4{
+    margin-right: 69px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.burger-title5{
+    margin-right: 24px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.logo-title2{
+    margin-right: 165px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.logo-title3{
+    margin-right: 129px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.logo-title4{
+    margin-right: 141px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.logo-title5{
+    margin-right: 16px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.logo-btn{
+    background: #7E5BC2;
+    border-radius: 10px;
+    padding: 6px 49px;
+    gap: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+    border: 0;
+}
+input{
+    width: 231px;
+    height: 39px;
+    border: 1px solid #E4DFDC;
+    border-radius: 10px;
+}
+.in{
+    width: 263px;
+    height: 39px;
+    border: 1px solid #E4DFDC;
+    border-radius: 10px;
+}
+.input{
+    width: 263px;
+    height: 95px;
+    border: 1px solid #E4DFDC;
+    border-radius: 10px;
+}
+.logo-tit{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5A5A5A;
+}
+.line2{
+    background-color: #000000;
+    width: 21px;
+    height: 2px;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    margin-bottom: 8px;
+}
+.line3{
+    background-color: #000000;
+    width: 21px;
+    height: 2px;
+    border-radius: 5px;
+    transform: rotate(-45deg);
+    margin-top: -10px; 
+}
+.burger-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background: #FFFFFF;
+    border: 1px solid #DEDCE4;
+    border-radius: 5px;
+    padding: 8px 15px;
+    gap: 10px;
+}
+.logg{
+    display: block;
+}
+.f-btn{
+    background: #7E5BC2;
+    border-radius: 10px;
+    padding: 6px 49px;
+    gap: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+@media(max-width:590px){
+    .burger-item1{
+        display: block;
+    }
+    .burger-item{
+        display: block;
+        margin-left: 0;
+    }
+    .logo-title {
+        display: flex;
+        justify-content: start;
+    }
+    .log-item-x {
+        margin-left: 300px;
+    }
+    .burger-title1{
+        margin-right: 0px;
+    }
+    .burger-item{
+        padding-right: 30px;
+        padding-left: 30px; 
+    }
+    .burger-item1{
+        padding-right: 30px;
+        padding-left: 30px; 
+    }
+}
+@media(max-width:600px){
+    .log-item{
+        display: block;
+    }
+    .logo-title1{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-title2{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-title3{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-title4{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-title5{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-title{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-tit{
+        display: flex;
+        justify-content: center;
+        margin-right: 120px;
+    }
+    .log-item-img{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    .log-item{
+        margin-bottom: 30px;
+    }
+}

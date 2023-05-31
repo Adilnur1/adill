@@ -1,0 +1,81 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #F5F5F5;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.share{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.14);
+    border-radius: 15px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 17px;
+}
+.line2{
+    background-color: #000000;
+    width: 21px;
+    height: 2px;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    margin-bottom: 8px;
+}
+.line3{
+    background-color: #000000;
+    width: 21px;
+    height: 2px;
+    border-radius: 5px;
+    transform: rotate(-45deg);
+    margin-top: -10px; 
+}
+.share-title3{
+    display: flex;
+}
+.share-item2{
+    position: absolute;
+    top: 15px;
+    margin-left: 300px;
+}
+.share-item1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.23px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 10px;
+
+}
+.share-tit{
+    margin: 10px;
+}
+.share-title4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.23px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+.ii{
+    width: 300.39px;
+    height: 33.07px;
+    left: 13.23px;
+    top: 147.18px;
+    background: #FBF9FB;
+    border-radius: 8.26873px;
+    margin-left: 10px;
+    border: 0;
+}
+body{
+    background: #F5F5F5;
+}
